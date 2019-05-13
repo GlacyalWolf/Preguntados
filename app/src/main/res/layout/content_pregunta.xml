@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5DADE2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".pregunta"
+    tools:showIn="@layout/activity_pregunta">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="140dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="44dp"
+        android:background="#E2925D"
+        android:text="Europa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="140dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="240dp"
+        android:background="#E2925D"
+        android:text="España"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="140dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="44dp"
+        android:background="#E2925D"
+        android:text="Asia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="140dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="240dp"
+        android:background="#E2925D"
+        android:text="Oceania"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="216dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="96dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="HISTORIA" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="En que continente se encuentra España?" />
+</android.support.constraint.ConstraintLayout>

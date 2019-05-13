@@ -27,7 +27,7 @@
         android:layout_marginTop="580dp"
         android:layout_marginEnd="60dp"
         android:background="#F93119"
-        android:text="GEOGRAFIA"
+        android:text="HISTORIA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -84,7 +84,9 @@
         android:layout_marginTop="500dp"
         android:layout_marginEnd="60dp"
         android:background="#F93119"
+        android:text="DEPORTES"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="DEPORTES" />
 
 </android.support.constraint.ConstraintLayout>
